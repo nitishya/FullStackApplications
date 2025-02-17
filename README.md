@@ -25,3 +25,11 @@ So lets build it . Here is the HLD of the Angular Application.
 
 
 <img width="428" alt="angular-FrontEnd HLD" src="https://github.com/user-attachments/assets/bfdcafd2-0255-410a-b6d2-f871f70fb961" />
+
+
+-Problems faced-
+- Lombok dependency error - You need to install it manually to your STS
+- Hibernate for Spring version 3.4.1 have some issues. You can solve it by changing STS version 3.3.5
+- In frontEnd while transfering amount the toTransfer Id is not getting fetched.
+- While transfering and withdrawing amount due to lack of concurrency getting error. Solved using the multithreading.
+- While implementing JWT got error. Try to be specific with the version of Springboot you are using and what version jjwt you are using this will decide all the other files and solving bugs regarding it.
