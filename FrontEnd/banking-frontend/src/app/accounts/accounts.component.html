@@ -1,0 +1,31 @@
+<div class="container mt-5">
+  <!-- Title Container centered -->
+  <div class="title-container text-center mb-4">
+    <h2>My Bank Accounts</h2>
+  </div>
+
+  <!-- Alert if user is not logged in -->
+  <div *ngIf="!isLoggedIn" class="alert alert-danger text-center">
+    ⚠️ You need to login first!  
+    <a class="btn btn-primary btn-sm ms-2" routerLink="/login">Login</a>
+  </div>
+
+  <!-- Bank Accounts Container (content remains left-aligned) -->
+  <div *ngIf="isLoggedIn">
+    <button class="btn btn-success mb-3" (click)="createAccount()">+ Create New Account</button>
+
+    <!-- Loop through the accounts and display them -->
+    <div class="card p-3 shadow-sm" *ngFor="let account of accounts">
+      <h5 class="mb-3 text-white bg-dark p-2 text-center">Account Number: {{ account.accountNumber }}</h5>
+      <p><strong class="text-dark">Balance:</strong> ${{ account.balance }}</p>
+
+      <div class="d-flex gap-2">
+        <button class="btn btn-primary" (click)="deposit(account.id)">Deposit</button>
+        <button class="btn btn-warning" (click)="withdraw(account.id)">Withdraw</button>
+      </div>
+    </div>
+
+    <!-- Display the message if any -->
+    <div *ngIf="message" class="alert alert-info mt-3">{{ message }}</div>
+  </div>
+</div>

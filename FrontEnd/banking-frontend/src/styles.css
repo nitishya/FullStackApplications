@@ -1,0 +1,38 @@
+/* Ensure the page takes the full height */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Flexbox layout to keep footer at the bottom */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+}
+
+/* Make content take up remaining space */
+.content {
+  flex: 1;
+}
+
+/* Updated footer position */
+.footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 5px 0; /* Reduced footer padding */
+  width: 100%;
+  position: relative; /* Changed from fixed to relative */
+  bottom: 0;
+}
+  
+/* Set a professional banking background */
+body {
+  background-image: url('assets/images/banking-bg.jpg.webp'); /* ✅ Image Path */
+  background-size: cover; /* ✅ Ensure it covers the entire screen */
+  background-position: center;
+  background-attachment: fixed; /* ✅ Keeps it fixed when scrolling */
+  font-family: Arial, sans-serif;
+}

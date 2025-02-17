@@ -1,0 +1,51 @@
+/* Title container styling */
+.title-container {
+  width: 100%; /* Full width container */
+  max-width: 600px; /* Limit max width for the title */
+  margin: 0 auto; /* Center the container */
+  padding: 20px 0; /* Add some padding above and below */
+  text-align: center; /* Center the text */
+}
+
+/* Styling for the welcome message */
+.welcome-message {
+  background-color: #ffffff;  /* White background */
+  border-radius: 10px;        /* Rounded corners */
+  padding: 20px;              /* Add padding for spacing */
+  text-align: center;         /* Center the text */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow to make it pop */
+  margin-top: 30px;           /* Add margin for spacing at the top */
+  margin-bottom: 20px;        /* Add margin at the bottom to create space */
+}
+
+h2 {
+  font-size: 2rem;          /* Increase font size */
+  color: #343a40;           /* Dark text color */
+  font-weight: bold;        /* Make text bold */
+}
+
+h5.text-white.bg-dark {
+  border-radius: 5px;
+  padding: 8px 10px; /* To match padding and alignment */
+  text-align: center;
+}
+
+.text-muted {
+  font-size: 0.9em;
+}
+
+/* Styling for bank account list to match transaction history */
+.list-group-item {
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.text-dark {
+  font-weight: bold;
+}
+
+.text-primary {
+  color: #007bff;
+}

@@ -1,0 +1,68 @@
+<div class="container mt-5">
+  <!-- Title Container centered -->
+  <div class="title-container text-center mb-4">
+    <h2>Transaction Management</h2>
+  </div>
+
+  <!-- Alert if user is not logged in -->
+  <div *ngIf="!isLoggedIn" class="alert alert-danger text-center">
+    ⚠️ You need to login first!
+    <a class="btn btn-primary btn-sm ms-2" routerLink="/login">Login</a>
+  </div>
+
+  <!-- Transactions section, visible if logged in -->
+  <div *ngIf="isLoggedIn">
+    <div class="row">
+      <!-- Left Side: Select Account & Transfer Money -->
+      <div class="col-md-6">
+        <!-- Select Account Dropdown -->
+        <div class="card p-3 shadow-sm mb-3">
+          <h5 class="mb-3 text-white bg-dark p-2 text-center">Select Account</h5>
+          <div class="form-group">
+            <label for="account">Choose an Account:</label>
+            <select id="account" class="form-control" [(ngModel)]="selectedAccountId" (change)="loadTransactions()">
+              <option *ngFor="let account of accounts" [value]="account.id">{{ account.accountNumber }}</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Transfer Money Form -->
+        <div class="card p-3 shadow-sm">
+          <h5 class="mb-3 text-white bg-dark p-2 text-center">Transfer Money</h5>
+          <form (ngSubmit)="transferMoney()">
+            <div class="form-group">
+              <label for="toAccountId">To Account ID:</label>
+              <input type="number" id="toAccountId" class="form-control" [(ngModel)]="toAccountId" name="toAccountId" required placeholder="Enter Recipient Account ID">
+            </div>
+
+            <div class="form-group mt-2">
+              <label for="amount">Amount:</label>
+              <input type="number" id="amount" class="form-control" [(ngModel)]="transferAmount" name="transferAmount" required placeholder="Enter Amount">
+            </div>
+
+            <button type="submit" class="btn btn-success mt-3 w-100">Transfer</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Right Side: Recent Transactions -->
+      <div class="col-md-6">
+        <div class="card p-3 shadow-sm">
+          <h5 class="mb-3 text-white bg-dark p-2 text-center">Recent Transactions</h5>
+
+          <!-- Show message if no transactions exist -->
+          <div *ngIf="transactions.length === 0" class="alert alert-warning text-center">
+            No transactions found.
+          </div>
+
+          <ul class="list-group" *ngIf="transactions.length > 0">
+            <li *ngFor="let transaction of transactions" class="list-group-item">
+              <strong class="text-dark">{{ transaction.type }}</strong> - <strong class="text-primary">${{ transaction.amount }}</strong>
+              <br> <small class="text-muted">{{ transaction.timestamp | date:'short' }}</small>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

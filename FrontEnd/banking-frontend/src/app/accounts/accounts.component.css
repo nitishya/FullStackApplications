@@ -1,0 +1,44 @@
+/* Title container styling */
+.title-container {
+  width: 100%; /* Full width container */
+  max-width: 600px; /* Limit max width for the title */
+  margin: 0 auto; /* Center the container */
+  padding: 20px 0; /* Add some padding above and below */
+  text-align: center; /* Center the text */
+}
+
+/* Styling for the card elements */
+.card {
+  margin-bottom: 15px;
+  border-radius: 8px;
+  width: 100%; /* Ensure the card occupies full width */
+}
+
+/* Styling for the buttons */
+button {
+  width: auto; /* Allow the button to adjust its width based on the content */
+  padding: 10px 20px; /* Add padding to make the button rectangular */
+  border-radius: 8px;
+}
+
+/* For improved spacing between the buttons */
+.d-flex.gap-2 button {
+  margin-right: 10px; /* Add space between the buttons */
+}
+
+/* Styling for Account Number Header */
+h5.text-white.bg-dark {
+  border-radius: 5px;
+  padding: 8px 10px;
+  text-align: center;
+}
+
+/* Styling for the Bank Account Info */
+p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.text-dark {
+  font-weight: bold;
+}

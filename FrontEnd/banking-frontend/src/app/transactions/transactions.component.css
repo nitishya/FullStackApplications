@@ -1,0 +1,58 @@
+/* Title container styling */
+.title-container {
+  width: 100%; /* Full width container */
+  max-width: 600px; /* Limit max width for the title */
+  margin: 0 auto; /* Center the container */
+  padding: 20px 0; /* Add some padding above and below */
+  text-align: center; /* Center the text */
+}
+
+/* Styling for the card elements */
+.card {
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+button {
+  width: 100%;
+  padding: 12px 0; /* Make the button full width and add some vertical padding */
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+h5.text-white.bg-dark {
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.list-group-item {
+  font-size: 16px;
+  border-radius: 5px;
+  margin-bottom: 5px; /* Add spacing between each list item */
+}
+
+.text-white.bg-dark {
+  border-radius: 5px;
+}
+
+/* Style the form input fields to match the Recent Transactions list */
+.form-group label {
+  font-weight: bold;
+}
+
+.form-control {
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.form-control:focus {
+  border-color: #343a40; /* Dark border color for focus */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Adjusting the card content for better visual consistency */
+.card p {
+  font-weight: 500;
+}

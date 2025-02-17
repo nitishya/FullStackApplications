@@ -1,0 +1,10 @@
+.footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 5px 0;  /* Reduced padding to make the footer smaller */
+  width: 100%;
+  position: relative;  /* Changed from 'fixed' to 'relative' */
+  bottom: 0;
+  left: 0;
+}

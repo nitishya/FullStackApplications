@@ -1,0 +1,13 @@
+.navbar {
+    position: fixed; /* ✅ Keep navbar fixed at the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* ✅ Ensure it stays above other elements */
+    background-color: #343a40;
+  }
+  
+  body {
+    padding-top: 60px; /* ✅ Prevent content from hiding under the navbar */
+  }
+  
