@@ -1,6 +1,7 @@
 We will Create A banking Application in this Project - 
 
-<img width="271" alt="allfunctions" src="https://github.com/user-attachments/assets/38758859-ee2f-4335-b51b-24b6ca58012b" />
+<img width="440" alt="HLD of banking application " src="https://github.com/user-attachments/assets/616e04bb-15da-4a2c-bc5b-1a25aa06cabc" />
+
 
 
 Now we will start with Backend which is in java using the springboot framework.
@@ -11,7 +12,8 @@ Now we will start with Backend which is in java using the springboot framework.
 
 So lets build it . Here is the HLD of the Springboot Application 
 
-<img width="440" alt="HLD of banking application " src="https://github.com/user-attachments/assets/35a57add-898e-4b81-a99e-4e3b2085a05d" />
+<img width="271" alt="allfunctions" src="https://github.com/user-attachments/assets/2b6a7cdf-edde-4758-b49a-dbb54c83ca0d" />
+
 
 
 Okay now we will build Front-End which is Angular 17. 
