@@ -21,30 +21,30 @@ Features
      
 **Technology Stack**
 Backend:
-     - Java 8
-     - Spring Boot
-     - Spring Security (JWT for Authentication)
-     - Spring Data JPA (Hibernate)
-     - Multi-threading for handling concurrent transactions
+- Java 8
+- Spring Boot
+- Spring Security (JWT for Authentication)
+- Spring Data JPA (Hibernate)
+- Multi-threading for handling concurrent transactions
      
 Frontend:
-     - Angular 17
-     - Bootstrap 5
-     - Angular Material UI
+- Angular 17
+- Bootstrap 5
+- Angular Material UI
      
 Database:
-     - MySQL
+- MySQL
 
      
 **Architecture**
 - High-Level Diagram (HLD) of Banking Application
-  
+ <img width="440" alt="HLD of banking application " src="https://github.com/user-attachments/assets/616e04bb-15da-4a2c-bc5b-1a25aa06cabc" /> 
+
+
+- HLD of Spring Boot Application
 <img width="271" alt="allfunctions" src="https://github.com/user-attachments/assets/2b6a7cdf-edde-4758-b49a-dbb54c83ca0d" />
 
-HLD of Spring Boot Application
-<img width="440" alt="HLD of banking application " src="https://github.com/user-attachments/assets/616e04bb-15da-4a2c-bc5b-1a25aa06cabc" />
-
-HLD of Angular Application
+- HLD of Angular Application
 
 <img width="428" alt="angular-FrontEnd HLD" src="https://github.com/user-attachments/assets/bfdcafd2-0255-410a-b6d2-f871f70fb961" />
 
