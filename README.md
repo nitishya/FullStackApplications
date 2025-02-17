@@ -106,9 +106,9 @@ Problems Faced and Solutions
 **Conclusion**
 This banking application provides basic banking functionality, such as registration, login, fund deposit, transfers, and transaction history. With the implementation of Spring Boot and Angular, it ensures a robust backend with a responsive frontend. The application also handles concurrency to allow multiple transactions at the same time, ensuring the system’s reliability.
 
-We will Create A banking Application in this Project - 
 
-The application will look like this .
+
+The application UI  .
 ![image](https://github.com/user-attachments/assets/06dd2228-69bc-4eed-aa70-f819829182ca)
 
 register page - 
@@ -131,19 +131,6 @@ After transfering the amount we will be redirected to dashboard where we will se
 ![image](https://github.com/user-attachments/assets/03ab3de9-3bcc-4422-8dfc-1b1c9e20d8b3)
 
 We have login, Logout functionality to for authorisation and authentication. 
-
-<img width="440" alt="HLD of banking application " src="https://github.com/user-attachments/assets/616e04bb-15da-4a2c-bc5b-1a25aa06cabc" />
-
-
-
-
-
-So lets build it . Here is the HLD of the Springboot Application 
-
-<img width="271" alt="allfunctions" src="https://github.com/user-attachments/assets/2b6a7cdf-edde-4758-b49a-dbb54c83ca0d" />
-
-
-
 
 
 
