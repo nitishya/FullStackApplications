@@ -130,7 +130,6 @@ After this we have transaction page to transfer any amount to other user-
 After transfering the amount we will be redirected to dashboard where we will see updated balance.
 ![image](https://github.com/user-attachments/assets/03ab3de9-3bcc-4422-8dfc-1b1c9e20d8b3)
 
-We have login, Logout functionality to for authorisation and authentication. 
 
 
 
