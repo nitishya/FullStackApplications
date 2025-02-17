@@ -1,5 +1,29 @@
 We will Create A banking Application in this Project - 
 
+The application will look like this .
+![image](https://github.com/user-attachments/assets/06dd2228-69bc-4eed-aa70-f819829182ca)
+
+register page - 
+![image](https://github.com/user-attachments/assets/d8c7d188-2d72-4039-a3cb-cd9fb03a96e6)
+
+now we will login to the page - 
+![image](https://github.com/user-attachments/assets/308a3ceb-4cc7-42e3-b8a7-3a995cf8ed8a)
+
+Now we will navigated to the dashboard-
+![image](https://github.com/user-attachments/assets/dc2c1fb6-d63f-4d8a-836a-4abc5b029fec)
+
+after this we will deposit money to the account created - 
+![image](https://github.com/user-attachments/assets/6add67ca-2fa6-4aa9-8b9b-90b179a37119)
+
+
+After this we have transaction page to transfer any amount to other user-
+![image](https://github.com/user-attachments/assets/a85a4f97-a4e6-4147-98a4-67cbe49d610f)
+
+After transfering the amount we will be redirected to dashboard where we will see updated balance.
+![image](https://github.com/user-attachments/assets/03ab3de9-3bcc-4422-8dfc-1b1c9e20d8b3)
+
+We have login, Logout functionality to for authorisation and authentication. 
+
 <img width="440" alt="HLD of banking application " src="https://github.com/user-attachments/assets/616e04bb-15da-4a2c-bc5b-1a25aa06cabc" />
 
 
