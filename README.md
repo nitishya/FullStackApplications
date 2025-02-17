@@ -66,14 +66,10 @@ Key Details:
 Backend:
 - Clone the repository:
 ```
-bash
-Copy
 git clone <repository-url>
 ```
 Navigate to the backend folder and run:
 ```
-bash
-Copy
 mvn spring-boot:run
 ```
 The backend will be available at http://localhost:8080.
@@ -81,14 +77,10 @@ The backend will be available at http://localhost:8080.
 Frontend:
 - Clone the repository:
 ```
-bash
-Copy
 git clone <repository-url>
 ```
 Navigate to the frontend folder and run:
 ```
-bash
-Copy
 npm install
 ng serve
 ```
